@@ -11,6 +11,7 @@ import Courses from "@/pages/courses";
 import Results from "@/pages/results";
 import Blog from "@/pages/blog";
 import Contact from "@/pages/contact";
+import ThankYou from "@/pages/thank-you";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ function Router() {
       <Route path="/results" component={Results} />
       <Route path="/blog" component={Blog} />
       <Route path="/contact" component={Contact} />
+      <Route path="/thank-you" component={ThankYou} />
       <Route component={NotFound} />
     </Switch>
   );

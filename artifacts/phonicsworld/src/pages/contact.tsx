@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useLocation } from "wouter";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { toast } from "sonner";
 import { Confetti } from "@/components/confetti";
 
 export default function Contact() {
   const [showConfetti, setShowConfetti] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [, setLocation] = useLocation();
 
   useEffect(() => {
     document.title = "Contact — PhonicsWorld";
@@ -19,16 +20,13 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate network request
+
     setTimeout(() => {
       setShowConfetti(true);
       setIsSubmitting(false);
-      toast.success("Message Sent Successfully", {
-        description: "Thank you for reaching out. Our team will contact you within 1 business day.",
-      });
       (e.target as HTMLFormElement).reset();
-    }, 800);
+      setTimeout(() => setLocation("/thank-you"), 900);
+    }, 600);
   };
 
   return (

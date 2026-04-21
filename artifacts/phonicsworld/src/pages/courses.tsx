@@ -4,6 +4,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Star } from "lucide-react";
+import { WordBuilder } from "@/components/word-builder";
 
 export default function Courses() {
   useEffect(() => {
@@ -96,6 +97,8 @@ export default function Courses() {
           </motion.div>
         ))}
       </div>
+
+      <WordBuilder />
 
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}

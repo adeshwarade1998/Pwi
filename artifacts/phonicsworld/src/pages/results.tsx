@@ -4,6 +4,7 @@ import { PlayCircle, Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import parentReadingImg from "@/assets/images/parent-reading.png";
 import childReadingImg from "@/assets/images/child-reading.png";
+import { RhymeMatch } from "@/components/rhyme-match";
 
 export default function Results() {
   useEffect(() => {
@@ -118,6 +119,8 @@ export default function Results() {
           </motion.div>
         ))}
       </div>
+
+      <RhymeMatch />
     </div>
   );
 }

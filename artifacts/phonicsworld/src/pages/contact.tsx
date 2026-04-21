@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
@@ -8,21 +8,28 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import contactImg from "@/assets/images/contact.png"; // existing
+import { Confetti } from "@/components/confetti";
 
 export default function Contact() {
+  const [showConfetti, setShowConfetti] = useState(false);
+
   useEffect(() => {
     document.title = "Contact — PhonicsWorld";
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Thanks! We'll be in touch within 24 hours.", {
-      style: { backgroundColor: "var(--color-primary)", color: "var(--color-foreground)", border: "2px solid var(--color-foreground)", borderRadius: "1rem", fontSize: "1.1rem", fontFamily: "var(--font-display)" }
-    });
+    setShowConfetti(true);
+    setTimeout(() => {
+      toast.success("Thanks! We'll be in touch within 24 hours.", {
+        style: { backgroundColor: "var(--color-primary)", color: "var(--color-foreground)", border: "2px solid var(--color-foreground)", borderRadius: "1rem", fontSize: "1.1rem", fontFamily: "var(--font-display)" }
+      });
+    }, 500); // Slight delay for the confetti to pop first
   };
 
   return (
-    <div className="w-full pt-12 pb-24 px-4 container mx-auto">
+    <div className="w-full pt-12 pb-24 px-4 container mx-auto relative">
+      <Confetti active={showConfetti} onComplete={() => setShowConfetti(false)} />
       <div className="text-center max-w-3xl mx-auto mb-16">
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}

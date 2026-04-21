@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import classImg from "@/assets/images/playful-classroom.png";
 import alphabetImg from "@/assets/images/alphabet-blocks.png";
+import { FunFactsCarousel } from "@/components/fun-facts-carousel";
 
 export default function About() {
   useEffect(() => {
@@ -80,6 +81,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <FunFactsCarousel />
 
       {/* Content block 2 */}
       <section className="container mx-auto px-4">

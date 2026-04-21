@@ -1,0 +1,98 @@
+Design a modern, playful, and highly engaging educational website for "PhonicsWorld", inspired by the visual style and color scheme of the landing page: https://phonicsworld.in/comprehensive-phonics-course/
+
+IMPORTANT:
+- Use the landing page as the PRIMARY design reference (colors, style, energy)
+- Do NOT copy layout exactly—create a unique but consistent design system
+- Make the full website feel lively, fun, and kid-friendly, while still professional for parents
+
+BRAND STYLE:
+- Bright, playful, colorful (child-friendly)
+- Maintain trust and clarity for parents
+- Use soft rounded shapes, gradients, and illustrations
+
+COLORS:
+- Extract main colors from the landing page and logo
+- Use vibrant combinations (e.g. yellow, blue, purple, pink accents)
+- Backgrounds should be light and cheerful (off-white or soft gradients)
+- Use color sections to break monotony
+
+TYPOGRAPHY:
+- Headings: bold, playful font (like Poppins, Nunito, or Baloo)
+- Body: clean and readable
+- Large font sizes for readability
+
+TARGET AUDIENCE:
+- Parents of kids (age 3–8)
+- Kids (visual appeal matters)
+
+CORE MESSAGE:
+"Make your child a confident reader with fun phonics learning"
+
+WEBSITE STRUCTURE:
+
+1. HOME PAGE:
+- Hero:
+  - Big colorful headline
+  - Subtext
+  - CTA: "Book Free Demo Class"
+  - Add animated elements (floating shapes, icons)
+- Features:
+  - Interactive cards (fun icons)
+- Learning Outcomes:
+  - Before/After comparison
+- Testimonials:
+  - Parent + child visuals
+- CTA banner
+
+2. ABOUT PAGE:
+- Story of PhonicsWorld
+- Why phonics is important
+- Use illustrations + icons
+
+3. COURSE PAGE:
+- Break down modules
+- Use colorful cards
+- Add progress-style visuals
+
+4. RESULTS / TESTIMONIALS:
+- Video + text testimonials
+- Fun layout (not boring grid)
+
+5. BLOG:
+- Clean but colorful cards
+- Easy readability
+
+6. CONTACT:
+- Simple, friendly form
+- Add icons + illustration
+
+ANIMATIONS (VERY IMPORTANT):
+- Smooth scroll animations (fade-up, slide-in)
+- Hover effects on buttons and cards
+- Floating background elements (subtle movement)
+- Micro-interactions (button click feedback)
+
+UI ELEMENTS:
+- Rounded buttons
+- Soft shadows
+- Colorful icons
+- Section dividers (waves or curves)
+
+FEATURES:
+- Sticky navbar
+- Mobile-first responsive
+- Fast loading
+- SEO-friendly structure
+
+TECH:
+- Use React + Tailwind CSS
+OR clean HTML/CSS/JS
+- Use animation libraries (like Framer Motion or simple CSS animations)
+
+EXTRA:
+- Add playful illustrations (kids learning, books, letters)
+- Use icons for phonics (A, B, C, sounds)
+- Keep layout clean despite colors (avoid clutter)
+
+GOAL:
+Transform PhonicsWorld into a vibrant, engaging, and high-converting educational website that feels fun for kids and trustworthy for parents.

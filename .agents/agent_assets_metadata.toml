@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "mbCSE9pCjaG-dSEUYJxtk"
+uri = "file://artifacts/phonicsworld/src/assets/images/hero.png"
+type = "image"
+title = "children reading a book"
+
+[[generated]]
+id = "PuSAO7_5eQ6xAp-WjR0sw"
+uri = "file://artifacts/phonicsworld/src/assets/images/classroom.png"
+type = "image"
+title = "playful classroom illustration"
+
+[[generated]]
+id = "kmI_drpxr2UDl2YnOHDjO"
+uri = "file://artifacts/phonicsworld/src/assets/images/parent-child.png"
+type = "image"
+title = "parent and child reading"
+
+[[generated]]
+id = "kbHUbeCY6TkxgjTCJpWE8"
+uri = "file://artifacts/phonicsworld/src/assets/images/contact.png"
+type = "image"
+title = "playful contact illustration"

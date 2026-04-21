@@ -61,73 +61,73 @@
   --elevate-2: rgba(0,0,0, .08);
 
   /* Creamy soft background */
-  --background: 40 60% 96%;
+  --background: 40 30% 98%;
   /* Deep Navy Typography */
-  --foreground: 222 60% 18%;
+  --foreground: 222 50% 15%;
 
-  --border: 214 32% 91%;
+  --border: 214 20% 90%;
 
   --card: 0 0% 100%;
-  --card-foreground: 222 60% 18%;
-  --card-border: 214 32% 91%;
+  --card-foreground: 222 50% 15%;
+  --card-border: 214 20% 90%;
 
-  --sidebar: 40 60% 96%;
-  --sidebar-foreground: 222 60% 18%;
-  --sidebar-border: 214 32% 91%;
-  --sidebar-primary: 38 95% 52%;
-  --sidebar-primary-foreground: 222 60% 18%;
-  --sidebar-accent: 205 88% 50%;
-  --sidebar-accent-foreground: 222 60% 18%;
-  --sidebar-ring: 38 95% 52%;
+  --sidebar: 40 30% 98%;
+  --sidebar-foreground: 222 50% 15%;
+  --sidebar-border: 214 20% 90%;
+  --sidebar-primary: 38 75% 55%;
+  --sidebar-primary-foreground: 222 50% 15%;
+  --sidebar-accent: 205 60% 55%;
+  --sidebar-accent-foreground: 222 50% 15%;
+  --sidebar-ring: 38 75% 55%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 222 60% 18%;
-  --popover-border: 214 32% 91%;
+  --popover-foreground: 222 50% 15%;
+  --popover-border: 214 20% 90%;
 
-  /* Saturated Marigold/Orange-Yellow Primary */
-  --primary: 38 95% 52%;
-  --primary-foreground: 222 60% 18%;
+  /* Desaturated Marigold/Orange-Yellow Primary */
+  --primary: 38 75% 55%;
+  --primary-foreground: 0 0% 100%;
 
-  /* Deeper Sky Blue Secondary */
-  --secondary: 205 88% 50%;
+  /* Desaturated Sky Blue Secondary */
+  --secondary: 205 60% 55%;
   --secondary-foreground: 0 0% 100%;
 
   /* Soft Muted */
-  --muted: 210 40% 96%;
-  --muted-foreground: 215.4 16.3% 46.9%;
+  --muted: 210 20% 96%;
+  --muted-foreground: 215 15% 45%;
 
-  /* Richer Raspberry Pink Accent */
-  --accent: 348 88% 60%;
+  /* Desaturated Raspberry Pink Accent */
+  --accent: 348 70% 65%;
   --accent-foreground: 0 0% 100%;
 
-  --destructive: 0 84.2% 60.2%;
+  --destructive: 0 75% 60%;
   --destructive-foreground: 210 40% 98%;
 
-  --input: 214 32% 91%;
-  --ring: 38 95% 52%;
+  --input: 214 20% 90%;
+  --ring: 38 75% 55%;
   
-  --chart-1: 38 95% 52%;
-  --chart-2: 205 88% 50%;
-  --chart-3: 348 88% 60%;
-  --chart-4: 145 75% 45%;
-  --chart-5: 280 65% 60%;
+  --chart-1: 38 75% 55%;
+  --chart-2: 205 60% 55%;
+  --chart-3: 348 70% 65%;
+  --chart-4: 145 60% 50%;
+  --chart-5: 280 50% 65%;
 
   /* Fonts */
-  --app-font-sans: 'Nunito', sans-serif;
+  --app-font-sans: 'Inter', system-ui, sans-serif;
   --app-font-display: 'Fredoka', sans-serif;
   
-  /* Bouncy, squishy corners */
-  --radius: 1rem; 
+  /* Refined corners */
+  --radius: 0.75rem; 
   
-  /* Chunky shadows */
-  --shadow-2xs: 0px 3px 0px 0px rgba(0,0,0,0.1);
-  --shadow-xs: 0px 5px 0px 0px rgba(0,0,0,0.15);
-  --shadow-sm: 0px 6px 0px 0px rgba(0,0,0,0.15), 0px 2px 4px -1px rgba(0,0,0,0.05);
-  --shadow: 0px 8px 0px 0px rgba(0,0,0,0.2), 0px 4px 6px -1px rgba(0,0,0,0.1);
-  --shadow-md: 0px 10px 0px 0px rgba(0,0,0,0.2), 0px 6px 8px -2px rgba(0,0,0,0.1);
-  --shadow-lg: 0px 14px 0px 0px rgba(0,0,0,0.2), 0px 8px 10px -3px rgba(0,0,0,0.1);
-  --shadow-xl: 0px 18px 0px 0px rgba(0,0,0,0.2), 0px 10px 15px -3px rgba(0,0,0,0.1);
-  --shadow-2xl: 0px 24px 0px 0px rgba(0,0,0,0.2);
+  /* Toned down shadows */
+  --shadow-2xs: 0px 1px 2px 0px rgba(0,0,0,0.05);
+  --shadow-xs: 0px 2px 4px 0px rgba(0,0,0,0.05);
+  --shadow-sm: 0px 4px 6px -1px rgba(0,0,0,0.05), 0px 2px 4px -1px rgba(0,0,0,0.03);
+  --shadow: 0px 6px 8px -2px rgba(0,0,0,0.06), 0px 4px 6px -1px rgba(0,0,0,0.04);
+  --shadow-md: 0px 8px 12px -2px rgba(0,0,0,0.08), 0px 4px 8px -2px rgba(0,0,0,0.04);
+  --shadow-lg: 0px 12px 16px -3px rgba(0,0,0,0.08), 0px 6px 12px -3px rgba(0,0,0,0.04);
+  --shadow-xl: 0px 16px 24px -4px rgba(0,0,0,0.08), 0px 8px 16px -4px rgba(0,0,0,0.04);
+  --shadow-2xl: 0px 24px 32px -4px rgba(0,0,0,0.1);
   
   --tracking-normal: 0em;
   --spacing: 0.25rem;
@@ -141,70 +141,22 @@
   --destructive-border: hsl(from hsl(var(--destructive)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
 }
 
-.dark {
-  /* We stick to light mode primarily as requested unless explicitly toggled, 
-     but setting safe defaults just in case */
-  --button-outline: rgba(255,255,255, .10);
-  --badge-outline: rgba(255,255,255, .05);
-
-  --opaque-button-border-intensity: 9;
-
-  --elevate-1: rgba(255,255,255, .04);
-  --elevate-2: rgba(255,255,255, .09);
-
-  --background: 222 47% 11%;
-  --foreground: 0 0% 100%;
-
-  --border: 217 33% 17%;
-
-  --card: 222 47% 11%;
-  --card-foreground: 0 0% 100%;
-  --card-border: 217 33% 17%;
-
-  --sidebar: 222 47% 11%;
-  --sidebar-foreground: 0 0% 100%;
-  --sidebar-border: 217 33% 17%;
-  --sidebar-primary: 45 100% 50%;
-  --sidebar-primary-foreground: 222 47% 11%;
-  --sidebar-accent: 195 100% 70%;
-  --sidebar-accent-foreground: 222 47% 11%;
-  --sidebar-ring: 45 100% 50%;
-
-  --popover: 222 47% 11%;
-  --popover-foreground: 0 0% 100%;
-  --popover-border: 217 33% 17%;
-
-  --primary: 45 100% 50%;
-  --primary-foreground: 222 47% 11%;
-
-  --secondary: 195 100% 70%;
-  --secondary-foreground: 222 47% 11%;
-
-  --muted: 217 33% 17%;
-  --muted-foreground: 215 20.2% 65.1%;
-
-  --accent: 340 82% 52%;
-  --accent-foreground: 0 0% 100%;
-
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 210 40% 98%;
-
-  --input: 217 33% 17%;
-  --ring: 45 100% 50%;
-}
-
 @layer base {
   * {
     @apply border-border;
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground selection:bg-primary/30;
+    @apply font-sans antialiased bg-background text-foreground selection:bg-primary/30 leading-[1.6];
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2 {
     font-family: var(--font-display);
     @apply tracking-tight font-semibold;
+  }
+  
+  h3, h4, h5, h6 {
+    @apply font-sans font-semibold;
   }
 }
 

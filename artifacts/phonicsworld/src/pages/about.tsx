@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import classImg from "@/assets/images/playful-classroom.png";
 import alphabetImg from "@/assets/images/alphabet-blocks.png";
-import { FunFactsCarousel } from "@/components/fun-facts-carousel";
+import { AlphabetPlayground } from "@/components/alphabet-playground";
 
 export default function About() {
   useEffect(() => {
@@ -10,141 +10,126 @@ export default function About() {
   }, []);
 
   return (
-    <div className="w-full pt-12 pb-24">
+    <div className="w-full pt-16 pb-24 bg-background">
       {/* Hero */}
       <section className="container mx-auto px-4 mb-20 text-center max-w-4xl">
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-5xl md:text-7xl font-display font-bold text-foreground mb-6"
+          className="text-4xl md:text-5xl font-display font-bold text-foreground mb-6"
         >
-          Our <span className="text-accent">Brand Promise</span> ✨
+          Our Commitment to Parents & Children
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="text-2xl text-muted-foreground font-medium"
+          className="text-xl text-muted-foreground font-sans leading-relaxed"
         >
-          We are here to help parents raise English Superstars.
+          We partner with families to build strong reading foundations, transforming early literacy into an engaging, structured journey.
         </motion.p>
       </section>
 
-      {/* Content block 1 */}
+      {/* Methodology block */}
       <section className="container mx-auto px-4 mb-24">
-        <div className="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-[3rem] p-8 md:p-12 border-4 border-secondary shadow-lg">
+        <div className="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-2xl p-8 md:p-12 border border-border shadow-sm">
           <motion.div 
-            initial={{ opacity: 0, x: -30 }}
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="flex-1"
           >
-            <img src={classImg} alt="Our classroom" className="w-full rounded-[2rem] border-4 border-primary shadow-sm rotate-2" />
+            <img src={classImg} alt="Our learning methodology" className="w-full rounded-xl border border-border shadow-sm" />
           </motion.div>
           <motion.div 
-            initial={{ opacity: 0, x: 30 }}
+            initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="flex-1 space-y-6"
           >
-            <h2 className="text-4xl font-display font-bold text-foreground">Why Parents Choose Us</h2>
-            <ul className="space-y-3 text-lg font-medium text-muted-foreground list-disc list-inside pl-4">
-              <li>Phonics-based reading</li>
-              <li>Pronunciation, Fluency & Spellings</li>
-              <li>Confidence & Personality-building</li>
-              <li>Advanced Method learning</li>
-              <li>Holistic approach</li>
-              <li>Passionate teachers</li>
-              <li>Experienced Coaches</li>
-              <li>2000+ Kids Trained</li>
+            <h2 className="text-3xl font-display font-bold text-foreground">Why Parents Choose PhonicsWorld</h2>
+            <p className="text-muted-foreground font-sans text-base leading-relaxed">
+              Reading is the foundation of all future academic success. We use a proven, evidence-based phonics approach to ensure children don't just memorize words, but understand the mechanics of language.
+            </p>
+            <ul className="space-y-4 text-base font-sans text-foreground">
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                <span><strong>Structured Phonics:</strong> Systematic introduction to 42 letter sounds.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                <span><strong>Fluency & Pronunciation:</strong> Correcting early habits for clear articulation.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                <span><strong>Confidence Building:</strong> Small classes ensure every child participates.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                <span><strong>Expert Educators:</strong> 100% certified teachers with years of early-childhood experience.</span>
+              </li>
             </ul>
           </motion.div>
         </div>
       </section>
 
-      {/* Stats/Facts */}
-      <section className="bg-primary/20 py-20 border-y-4 border-primary mb-24">
+      {/* Stats/Facts - Professional */}
+      <section className="bg-muted/30 py-16 border-y border-border mb-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="p-6">
-              <div className="text-6xl font-display font-bold text-primary mb-2">5000+</div>
-              <div className="text-xl font-bold text-foreground">Happy Readers</div>
+              <div className="text-4xl md:text-5xl font-display font-bold text-primary mb-3">3–8</div>
+              <div className="text-base font-sans font-medium text-foreground">Age Range We Serve</div>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="p-6">
-              <div className="text-6xl font-display font-bold text-accent mb-2">100%</div>
-              <div className="text-xl font-bold text-foreground">Certified Teachers</div>
+              <div className="text-4xl md:text-5xl font-display font-bold text-secondary mb-3">100%</div>
+              <div className="text-base font-sans font-medium text-foreground">Certified Teachers</div>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="p-6">
-              <div className="text-6xl font-display font-bold text-secondary mb-2">42</div>
-              <div className="text-xl font-bold text-foreground">Letter Sounds Taught</div>
+              <div className="text-4xl md:text-5xl font-display font-bold text-accent mb-3">42</div>
+              <div className="text-base font-sans font-medium text-foreground">Core Phonemes Covered</div>
             </motion.div>
           </div>
-        </div>
-      </section>
-
-      <FunFactsCarousel />
-
-      {/* Content block 2 */}
-      <section className="container mx-auto px-4">
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
-          <motion.div 
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="flex-1 space-y-6"
-          >
-            <h2 className="text-4xl font-display font-bold text-foreground">Our Pillars</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-white p-6 rounded-2xl border-4 border-primary shadow-sm">
-                <h3 className="text-2xl font-display font-bold text-primary mb-2">Kindness</h3>
-                <p className="text-md text-muted-foreground font-medium">We believe kindness is the key to confident learners. Every lesson encourages respect, empathy, and care — creating a safe and happy space for all children.</p>
-              </div>
-              <div className="bg-white p-6 rounded-2xl border-4 border-accent shadow-sm">
-                <h3 className="text-2xl font-display font-bold text-accent mb-2">Creativity</h3>
-                <p className="text-md text-muted-foreground font-medium">Learning is more than letters and sounds — it's imagination in action. Our activities inspire children to express themselves through stories, songs, and play.</p>
-              </div>
-              <div className="bg-white p-6 rounded-2xl border-4 border-secondary shadow-sm">
-                <h3 className="text-2xl font-display font-bold text-secondary mb-2">Emotional</h3>
-                <p className="text-md text-muted-foreground font-medium">We care for the heart as much as the mind. Our classrooms create a warm, safe space where children can explore feelings and build confidence.</p>
-              </div>
-              <div className="bg-white p-6 rounded-2xl border-4 border-green-500 shadow-sm">
-                <h3 className="text-2xl font-display font-bold text-green-600 mb-2">Innovation</h3>
-                <p className="text-md text-muted-foreground font-medium">Blending tradition with technology for brighter futures. We use modern tools and creative methods to make phonics fun, effective, and future-ready.</p>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div 
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="flex-1"
-          >
-            <img src={alphabetImg} alt="Our philosophy" className="w-full rounded-[2rem] border-4 border-secondary shadow-sm -rotate-2" />
-          </motion.div>
         </div>
       </section>
 
       {/* Teachers */}
-      <section className="container mx-auto px-4 mt-24">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-display font-bold text-foreground">Meet the Teachers</h2>
+      <section className="container mx-auto px-4 mb-24">
+        <div className="text-center mb-16 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-display font-bold text-foreground mb-4">Meet the Educational Team</h2>
+          <p className="text-muted-foreground font-sans">Dedicated professionals committed to your child's academic growth.</p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center gap-12">
-          <div className="flex flex-col items-center text-center">
-            <div className="w-32 h-32 rounded-full bg-primary/20 border-4 border-primary flex items-center justify-center mb-4 shadow-sm text-4xl font-display font-bold text-primary">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="bg-white rounded-2xl border border-border p-8 shadow-sm flex flex-col items-center text-center">
+            <div className="w-24 h-24 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-6 text-2xl font-display font-bold">
               AS
             </div>
-            <h3 className="text-2xl font-display font-bold text-foreground">Asmii Sidhu</h3>
-            <p className="text-muted-foreground font-medium">Phonics Coach with 5+ years of experience</p>
+            <h3 className="text-xl font-display font-semibold text-foreground mb-1">Asmii Sidhu</h3>
+            <p className="text-sm font-sans text-primary font-medium mb-4">Senior Phonics Educator</p>
+            <p className="text-muted-foreground font-sans text-sm leading-relaxed">
+              With over 5 years of specialized experience in early childhood literacy, Asmii designs structured learning paths that adapt to each student's pace.
+            </p>
           </div>
-          <div className="flex flex-col items-center text-center">
-            <div className="w-32 h-32 rounded-full bg-accent/20 border-4 border-accent flex items-center justify-center mb-4 shadow-sm text-4xl font-display font-bold text-accent">
+          <div className="bg-white rounded-2xl border border-border p-8 shadow-sm flex flex-col items-center text-center">
+            <div className="w-24 h-24 rounded-full bg-secondary/10 text-secondary flex items-center justify-center mb-6 text-2xl font-display font-bold">
               HS
             </div>
-            <h3 className="text-2xl font-display font-bold text-foreground">Hritika Sharma</h3>
-            <p className="text-muted-foreground font-medium">Phonics Coach with 5+ years of experience</p>
+            <h3 className="text-xl font-display font-semibold text-foreground mb-1">Hritika Sharma</h3>
+            <p className="text-sm font-sans text-secondary font-medium mb-4">Reading Specialist</p>
+            <p className="text-muted-foreground font-sans text-sm leading-relaxed">
+              Hritika brings 5+ years of expertise in engaging young learners, ensuring foundational reading concepts are mastered thoroughly before advancing.
+            </p>
           </div>
         </div>
+      </section>
+
+      {/* Interactive Activity lower down */}
+      <section className="container mx-auto px-4 mt-24 pt-16 border-t border-border">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl font-display font-bold text-foreground mb-2">Try it with your child</h2>
+          <p className="text-muted-foreground font-sans text-sm">A quick preview of our interactive learning tools.</p>
+        </div>
+        <AlphabetPlayground />
       </section>
     </div>
   );

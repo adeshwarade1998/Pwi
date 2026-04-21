@@ -94,7 +94,7 @@ export default function Contact() {
           transition={{ delay: 0.3 }}
           className="flex flex-col gap-8"
         >
-          <div className="bg-sky-100 rounded-3xl p-8 border-4 border-sky-200">
+          <div className="bg-secondary/20 rounded-3xl p-8 border-4 border-secondary">
             <h3 className="text-2xl font-display font-bold mb-6 text-foreground">Contact Details</h3>
             <ul className="space-y-6">
               <li className="flex items-center gap-4">
@@ -103,7 +103,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-muted-foreground uppercase tracking-wider">Phone</p>
-                  <p className="text-xl font-medium text-foreground">+91 98765 43210</p>
+                  <a href="tel:+918793245997" className="text-xl font-medium text-foreground hover:text-primary transition-colors">+91 87932 45997</a>
                 </div>
               </li>
               <li className="flex items-center gap-4">
@@ -112,7 +112,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-muted-foreground uppercase tracking-wider">Email</p>
-                  <p className="text-xl font-medium text-foreground">hello@phonicsworld.in</p>
+                  <a href="mailto:hello@phonicsworld.in" className="text-xl font-medium text-foreground hover:text-accent transition-colors">hello@phonicsworld.in</a>
                 </div>
               </li>
               <li className="flex items-center gap-4">

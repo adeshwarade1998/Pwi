@@ -6,16 +6,17 @@ import { Input } from "@/components/ui/input";
 
 export function Footer() {
   return (
-    <footer className="bg-sky-100/50 pt-20 pb-10 border-t-4 border-t-sky-200 mt-20">
+    <footer className="bg-secondary/20 pt-20 pb-10 border-t-4 border-t-secondary mt-20">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-6">
             <Link href="/" className="inline-block transition-transform hover:scale-105 active:scale-95">
               <img src={logo} alt="PhonicsWorld Logo" className="h-16 w-auto object-contain" />
+              <span className="font-display font-bold text-foreground text-xl block mt-2">Reading Ninjas</span>
             </Link>
             <p className="text-muted-foreground font-medium">
-              Making your child a confident reader through fun, interactive, and joyful phonics learning!
+              Where learning happens with patience, care, and joy. We welcome kids above 4 years!
             </p>
             <div className="flex gap-4">
               <a href="#" className="h-10 w-10 rounded-full bg-background flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground transition-colors shadow-sm">
@@ -58,7 +59,7 @@ export function Footer() {
             <ul className="space-y-4 font-medium text-muted-foreground">
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span>+91 98765 43210</span>
+                <a href="tel:+918793245997" className="hover:text-primary transition-colors">+91 87932 45997</a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-accent shrink-0 mt-0.5" />

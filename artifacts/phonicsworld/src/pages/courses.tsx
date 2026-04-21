@@ -13,57 +13,30 @@ export default function Courses() {
   const modules = [
     {
       level: "Level 1",
-      title: "Letter Sounds",
-      desc: "Master the 42 pure letter sounds through fun actions and songs.",
+      title: "Starting Point",
+      desc: "The perfect starting point for young readers. Level 1 introduces children to the building blocks of reading with fun, engaging lessons.",
       color: "bg-primary/20",
       textColor: "text-primary",
       borderColor: "border-primary",
-      items: ["A-Z Sounds", "Vowel Sounds", "Consonant Sounds", "Action-based recall"]
+      items: ["Letter sounds", "Basic blending", "Fun actions and songs", "Early recognition"]
     },
     {
       level: "Level 2",
-      title: "Blending Magic",
-      desc: "Learn to smush sounds together to read simple 3-letter CVC words.",
+      title: "Building Readers",
+      desc: "Building strong readers with confidence. Level 2 takes children beyond the basics, helping them blend sounds and read simple sentences.",
       color: "bg-secondary/20",
       textColor: "text-secondary",
       borderColor: "border-secondary",
-      items: ["CVC Words (cat, dog)", "Sound blending", "Word building", "Early reading"]
+      items: ["CVC Words", "Sound blending", "Word building", "Simple sentences"]
     },
     {
       level: "Level 3",
-      title: "Tricky Digraphs",
-      desc: "When two letters make one sound! Unlocking 'sh', 'ch', 'th', and more.",
+      title: "Confident Explorers",
+      desc: "From early readers to confident explorers. Level 3 equips children with advanced phonics skills to read fluently and write with clarity.",
       color: "bg-accent/20",
       textColor: "text-accent",
       borderColor: "border-accent",
-      items: ["Consonant Digraphs", "Vowel Digraphs", "Magic E rule", "Complex words"]
-    },
-    {
-      level: "Level 4",
-      title: "Sight Words",
-      desc: "Memorizing the tricky words that don't follow the normal phonics rules.",
-      color: "bg-orange-100",
-      textColor: "text-orange-500",
-      borderColor: "border-orange-500",
-      items: ["High-frequency words", "Visual memory games", "Sentence context", "Quick recall"]
-    },
-    {
-      level: "Level 5",
-      title: "Reading Fluency",
-      desc: "Moving from slow decoding to smooth, natural reading speed.",
-      color: "bg-green-100",
-      textColor: "text-green-600",
-      borderColor: "border-green-500",
-      items: ["Pacing and rhythm", "Expression reading", "Paragraphs", "Confidence building"]
-    },
-    {
-      level: "Level 6",
-      title: "Comprehension",
-      desc: "Understanding the story, answering questions, and loving books!",
-      color: "bg-purple-100",
-      textColor: "text-purple-600",
-      borderColor: "border-purple-500",
-      items: ["Story retelling", "Answering questions", "Predicting outcomes", "Independent reading"]
+      items: ["Advanced phonics", "Reading fluently", "Writing with clarity", "Complex words"]
     }
   ];
 
@@ -75,7 +48,7 @@ export default function Courses() {
           animate={{ opacity: 1, y: 0 }}
           className="text-5xl md:text-6xl font-display font-bold text-foreground mb-6"
         >
-          Our <span className="text-primary">Learning</span> Journey 🚀
+          Our <span className="text-primary">Course Levels</span> 🚀
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -87,7 +60,7 @@ export default function Courses() {
         </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {modules.map((mod, i) => (
           <motion.div
             key={i}

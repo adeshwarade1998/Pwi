@@ -12,55 +12,54 @@ export default function Results() {
 
   const testimonials = [
     {
-      type: "video",
-      name: "Sarah's Mom",
+      type: "text",
+      name: "Avnish's Mom",
       childAge: "Age 5",
-      quote: "Before PhonicsWorld, Sarah struggled with basic sounds. Now she's reading simple books independently! The change in her confidence is amazing.",
-      image: parentReadingImg,
+      quote: "Before PhonicsWorld, Avnish struggled with basic sounds. Now he's reading simple books independently! The change in his confidence is amazing.",
       color: "border-primary",
-      bg: "bg-primary/10"
+      bg: "bg-primary/20"
     },
     {
       type: "text",
-      name: "Mark T.",
+      name: "Vannya's Mom",
       childAge: "Age 6",
-      quote: "The teachers are incredible. They know exactly how to keep a distracted 6-year-old engaged. The interactive games make learning feel like playtime.",
+      quote: "After just a few months with PhonicsWorld, Vannya is reading whole stories on her own — and loving it!",
       color: "border-secondary",
-      bg: "bg-secondary/10"
+      bg: "bg-secondary/20"
     },
     {
       type: "video",
       name: "Leo's Dad",
       childAge: "Age 4",
-      quote: "We tried so many apps and worksheets, but the live classes here are what finally clicked for Leo. He loves 'Magic E' days!",
+      quote: "We tried so many apps and worksheets, but the live classes here are what finally clicked for Leo. He loves learning with patience and care!",
       image: childReadingImg,
       color: "border-accent",
-      bg: "bg-accent/10"
+      bg: "bg-accent/20"
     },
     {
       type: "text",
       name: "Priya M.",
       childAge: "Age 7",
       quote: "My daughter was falling behind in school reading levels. Within 3 months at PhonicsWorld, she caught up and now reads for fun before bed.",
-      color: "border-green-400",
-      bg: "bg-green-100"
+      color: "border-green-500",
+      bg: "bg-green-200/50"
     },
     {
       type: "text",
       name: "David K.",
       childAge: "Age 5",
       quote: "Best investment in his education we've made. The curriculum is perfectly structured. The progress is visible week by week.",
-      color: "border-purple-400",
-      bg: "bg-purple-100"
+      color: "border-purple-500",
+      bg: "bg-purple-200/50"
     },
     {
       type: "video",
       name: "Emma's Parents",
       childAge: "Age 6",
-      quote: "She used to cry when it was time to practice reading. Now she begs to login to her PhonicsWorld classes. Thank you!",
+      quote: "She used to cry when it was time to practice reading. Now she begs to login to her PhonicsWorld classes. Where learning happens with joy!",
       image: parentReadingImg,
-      color: "border-orange-400",
-      bg: "bg-orange-100"
+      color: "border-orange-500",
+      bg: "bg-orange-200/50"
     }
   ];
 

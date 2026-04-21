@@ -61,55 +61,55 @@
   --elevate-2: rgba(0,0,0, .08);
 
   /* Creamy soft background */
-  --background: 40 33% 98%;
+  --background: 40 60% 96%;
   /* Deep Navy Typography */
-  --foreground: 222 47% 11%;
+  --foreground: 222 60% 18%;
 
   --border: 214 32% 91%;
 
   --card: 0 0% 100%;
-  --card-foreground: 222 47% 11%;
+  --card-foreground: 222 60% 18%;
   --card-border: 214 32% 91%;
 
-  --sidebar: 40 33% 98%;
-  --sidebar-foreground: 222 47% 11%;
+  --sidebar: 40 60% 96%;
+  --sidebar-foreground: 222 60% 18%;
   --sidebar-border: 214 32% 91%;
-  --sidebar-primary: 45 100% 50%;
-  --sidebar-primary-foreground: 222 47% 11%;
-  --sidebar-accent: 195 100% 70%;
-  --sidebar-accent-foreground: 222 47% 11%;
-  --sidebar-ring: 45 100% 50%;
+  --sidebar-primary: 38 95% 52%;
+  --sidebar-primary-foreground: 222 60% 18%;
+  --sidebar-accent: 205 88% 50%;
+  --sidebar-accent-foreground: 222 60% 18%;
+  --sidebar-ring: 38 95% 52%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 222 47% 11%;
+  --popover-foreground: 222 60% 18%;
   --popover-border: 214 32% 91%;
 
-  /* Sunshine Yellow Primary */
-  --primary: 45 100% 50%;
-  --primary-foreground: 222 47% 11%;
+  /* Saturated Marigold/Orange-Yellow Primary */
+  --primary: 38 95% 52%;
+  --primary-foreground: 222 60% 18%;
 
-  /* Playful Sky Blue Secondary */
-  --secondary: 195 100% 70%;
-  --secondary-foreground: 222 47% 11%;
+  /* Deeper Sky Blue Secondary */
+  --secondary: 205 88% 50%;
+  --secondary-foreground: 0 0% 100%;
 
   /* Soft Muted */
   --muted: 210 40% 96%;
   --muted-foreground: 215.4 16.3% 46.9%;
 
-  /* Raspberry Pink Accent */
-  --accent: 340 82% 52%;
+  /* Richer Raspberry Pink Accent */
+  --accent: 348 88% 60%;
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
   --input: 214 32% 91%;
-  --ring: 45 100% 50%;
+  --ring: 38 95% 52%;
   
-  --chart-1: 45 100% 50%;
-  --chart-2: 195 100% 70%;
-  --chart-3: 340 82% 52%;
-  --chart-4: 160 60% 45%;
+  --chart-1: 38 95% 52%;
+  --chart-2: 205 88% 50%;
+  --chart-3: 348 88% 60%;
+  --chart-4: 145 75% 45%;
   --chart-5: 280 65% 60%;
 
   /* Fonts */
@@ -120,14 +120,14 @@
   --radius: 1rem; 
   
   /* Chunky shadows */
-  --shadow-2xs: 0px 2px 0px 0px rgba(0,0,0,0.05);
-  --shadow-xs: 0px 4px 0px 0px rgba(0,0,0,0.1);
-  --shadow-sm: 0px 4px 0px 0px rgba(0,0,0,0.1), 0px 2px 4px -1px rgba(0,0,0,0.05);
-  --shadow: 0px 6px 0px 0px rgba(0,0,0,0.15), 0px 4px 6px -1px rgba(0,0,0,0.1);
-  --shadow-md: 0px 8px 0px 0px rgba(0,0,0,0.15), 0px 6px 8px -2px rgba(0,0,0,0.1);
-  --shadow-lg: 0px 10px 0px 0px rgba(0,0,0,0.15), 0px 8px 10px -3px rgba(0,0,0,0.1);
-  --shadow-xl: 0px 12px 0px 0px rgba(0,0,0,0.15), 0px 10px 15px -3px rgba(0,0,0,0.1);
-  --shadow-2xl: 0px 16px 0px 0px rgba(0,0,0,0.15);
+  --shadow-2xs: 0px 3px 0px 0px rgba(0,0,0,0.1);
+  --shadow-xs: 0px 5px 0px 0px rgba(0,0,0,0.15);
+  --shadow-sm: 0px 6px 0px 0px rgba(0,0,0,0.15), 0px 2px 4px -1px rgba(0,0,0,0.05);
+  --shadow: 0px 8px 0px 0px rgba(0,0,0,0.2), 0px 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-md: 0px 10px 0px 0px rgba(0,0,0,0.2), 0px 6px 8px -2px rgba(0,0,0,0.1);
+  --shadow-lg: 0px 14px 0px 0px rgba(0,0,0,0.2), 0px 8px 10px -3px rgba(0,0,0,0.1);
+  --shadow-xl: 0px 18px 0px 0px rgba(0,0,0,0.2), 0px 10px 15px -3px rgba(0,0,0,0.1);
+  --shadow-2xl: 0px 24px 0px 0px rgba(0,0,0,0.2);
   
   --tracking-normal: 0em;
   --spacing: 0.25rem;

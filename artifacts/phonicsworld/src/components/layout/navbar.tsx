@@ -18,7 +18,7 @@ export function Navbar() {
   const [location] = useLocation();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b-4 border-b-sky-200/50 bg-background/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b-4 border-b-secondary/50 bg-background/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 transition-transform hover:scale-105 active:scale-95">
           <img src={logo} alt="PhonicsWorld Logo" className="h-12 w-auto object-contain" />
@@ -45,10 +45,10 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-4">
           <Button 
-            className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-display text-lg px-8 py-6 shadow-[0_4px_0_0_rgba(200,140,0,1)] hover:shadow-[0_2px_0_0_rgba(200,140,0,1)] hover:translate-y-[2px] transition-all"
+            className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-display text-lg px-8 py-6 shadow-md hover:translate-y-[2px] transition-all"
             asChild
           >
-            <Link href="/contact">Book Free Demo Class</Link>
+            <Link href="/contact">Book a Demo</Link>
           </Button>
         </div>
 
@@ -80,10 +80,10 @@ export function Navbar() {
               </nav>
               <div className="mt-auto">
                 <Button 
-                  className="w-full rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-display text-xl py-8 shadow-[0_4px_0_0_rgba(200,140,0,1)] hover:shadow-[0_2px_0_0_rgba(200,140,0,1)] hover:translate-y-[2px] transition-all"
+                  className="w-full rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-display text-xl py-8 shadow-md hover:translate-y-[2px] transition-all"
                   asChild
                 >
-                  <Link href="/contact">Book Free Demo</Link>
+                  <Link href="/contact">Book a Demo</Link>
                 </Button>
               </div>
             </div>

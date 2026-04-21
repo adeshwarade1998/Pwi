@@ -24,3 +24,39 @@ id = "kbHUbeCY6TkxgjTCJpWE8"
 uri = "file://artifacts/phonicsworld/src/assets/images/contact.png"
 type = "image"
 title = "playful contact illustration"
+
+[[generated]]
+id = "1y0d_-gA-YcwqWkxUNaGf"
+uri = "file://artifacts/phonicsworld/src/assets/images/child-reading.png"
+type = "image"
+title = "Child reading book with letters"
+
+[[generated]]
+id = "ItnrsrKsSfe2JzZE-J1aS"
+uri = "file://artifacts/phonicsworld/src/assets/images/parent-reading.png"
+type = "image"
+title = "Parent and child reading"
+
+[[generated]]
+id = "LrQe_4KfVZfGdJthQe_oq"
+uri = "file://artifacts/phonicsworld/src/assets/images/alphabet-blocks.png"
+type = "image"
+title = "Kids playing with alphabet blocks"
+
+[[generated]]
+id = "tHkFh5zuTojngO83kq-M4"
+uri = "file://artifacts/phonicsworld/src/assets/images/playful-classroom.png"
+type = "image"
+title = "Playful classroom setting"
+
+[[generated]]
+id = "Ggf9krfEyX6zdnlIhLIs9"
+uri = "file://artifacts/phonicsworld/src/assets/images/animals-reading.png"
+type = "image"
+title = "Cute animals reading"
+
+[[generated]]
+id = "IO0VUSde_sp1SLuL5QnYw"
+uri = "file://artifacts/phonicsworld/src/assets/images/child-pencil.png"
+type = "image"
+title = "Child holding a pencil"
